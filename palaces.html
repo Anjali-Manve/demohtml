@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indore Tourism - Palaces</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #f3f4f6, #e0f7fa);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .palace-image {
+  width: 100%;
+  height: 350px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+    .palace-image {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+    .section-title {
+      color: #26a69a;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .palace-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #006;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Georgia', serif;
+}
+
+.palace-title::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #082523;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; width: 0; }
+  to { opacity: 1; width: 60px; }
+}
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Indore Tourism</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="palaces.html">Palaces</a></li>
+          <li class="nav-item"><a class="nav-link" href="temples.html">Temples</a></li>
+          <li class="nav-item"><a class="nav-link" href="food.html">Food Markets</a></li>
+          <li class="nav-item"><a class="nav-link" href="famous-markets.html">Famous Markets</a></li>
+          <li class="nav-item"><a class="nav-link" href="parks.html">Parks</a></li>
+          <li class="nav-item"><a class="nav-link" href="stadiums.html">Stadiums</a></li>
+          <li class="nav-item"><a class="nav-link" href="church.html">Church</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div class="container mt-5 mb-5">
+    <h2 class="section-title text-center mb-4">Famous Palaces in Indore</h2>
+  
+    <!-- First Palace -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="https://www.trawell.in/admin/images/upload/094484563Indore_Rajwada_Palace_Main.jpg" alt="Rajwada Palace" class="palace-image">
+      </div>
+      <div class="col-md-6">
+        <h4 class="palace-title">Rajwada Palace</h4>
+        <p class="text-center">Located near the famous Kajuri Market in Indore, Rajwada is a magnificent and historical palace that is located in the city of Indore and was constructed by the Holkars more than 200 years ago. It is a seven-storied structure located near the Chhatris and serves as an excellent example of royal grandeur and architectural skills.
+  
+          Nestled between the crowded streets of the Kajuri Bazar and facing the main square of the city, the Rajwada palace also faces a well-maintained garden that houses a statue of Queen Ahilya Bai, an artificial waterfall and some beautiful fountains. Even after all these years, the palace continues to be one of the most famous tourist spots in Indore and is one of the oldest structures too.</p>
+      </div>
+    </div>
+  
+    <!-- Second Palace -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcivaD8-y-D7uGBbc-yEt0PnWofhLIzHdNcj62-atSWMtDrYja6ZcF-GgUAgOxelneN68v7TGTplNaR4m0kIna-GHL7tDGbXXqTbuhB_hg1F9Bb2PSR62Wm4IRev79OpzXVhTCoYA?key=6CJFDxIIbOs1axgo87f9g30z" alt="Lal Baag Palace" class="palace-image">
+      </div>
+      <div class="col-md-6">
+        <h4 class="palace-title">Lal Baag Palace</h4>
+        <p class="text-center">The construction of Lal Bagh Palace, or the Red Palace, began in the late nineteenth century and was completed in 1926 by the Holkar dynasty, whose leaders were some of the most powerful Maratha rulers of India. The architecture reflects Italian Renaissance Revival style, making it one of India’s finest neoclassical buildings. It is renowned for its European-influenced interiors, among the finest surviving from this period in India.
+  
+          In the 1980s, the palace was handed over to the state government of Madhya Pradesh. Since then, it had struggled with a minimal budget allocation. As a result, despite its reputation as the finest garden palace in central India, Lal Bagh had fallen into a state of disrepair, requiring urgent conservation. Peeling plaster, roof damage, water infiltration, and the faded splendor of its richly furnished rooms all demanded immediate attention.</p>
+      </div>
+    </div>
+  </div>
+  
+
+ 
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    &copy; 2025 Indore Tourism | Designed by Anjali
+  </footer>
+
+</body>
+</html>
